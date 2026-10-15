@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Mobile Legends - мой сайт</title>
+<style>
+  body {
+    background-color: #1e1e2e;
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+  }
+
+  /* шапка сайта */
+  .shapka {
+    background-color: #2a2a3e;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #f0b90b;
+  }
+
+  .shapka h1 {
+    font-size: 32px;
+    color: #f0b90b;
+    margin: 5px;
+    letter-spacing: 2px;
+  }
+
+  .shapka p {
+    color: #a0a0b0;
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  /* меню */
+  .menu {
+    background-color: #252535;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .menu a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 22px;
+    margin: 0 5px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+  .menu a:hover {
+    background-color: #3a3a50;
+    color: #f0b90b;
+  }
+
+  .menu a.active {
+    background-color: #f0b90b;
+    color: #1e1e2e;
+    font-weight: bold;
+  }
+
+  /* контейнер */
+  .container {
+    max-width: 950px;
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  /* блоки */
+  .blok {
+    background-color: #2a2a3e;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+
+  .blok h2 {
+    color: #f0b90b;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .blok p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #d0d0d0;
+  }
+
+  .blok ul {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #d0d0d0;
+  }
+
+  .blok li b { color: #f0b90b; }
+
+  /* картинка сверху */
+  .banner {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .banner img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    border: 2px solid #f0b90b;
+  }
+
+  /* таблица */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  table th {
+    background-color: #f0b90b;
+    color: #1e1e2e;
+    padding: 12px;
+    border: 1px solid #3a3a50;
+  }
+
+  table td {
+    background-color: #33334a;
+    padding: 10px;
+    border: 1px solid #3a3a50;
+    text-align: center;
+    color: #d0d0d0;
+  }
+
+  /* факты */
+  .fakty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .fakt {
+    background-color: #33334a;
+    padding: 18px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+    border: 2px solid #f0b90b;
+  }
+
+  .fakt .cifra {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f0b90b;
+    display: block;
+  }
+
+  .fakt .nazvanie {
+    font-size: 13px;
+    color: #a0a0b0;
+  }
+
+  /* подвал */
+  .podval {
+    background-color: #252535;
+    color: #a0a0b0;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 3px solid #f0b90b;
+    margin-top: 30px;
+  }
+
+  .podval p { margin: 5px; }
+</style>
+</head>
+<body>
+
+<!-- ШАПКА -->
+<div class="shapka">
+  <h1>MOBILE LEGENDS</h1>
+  <p>мой сайт про лучшую игру</p>
+</div>
+
+<!-- МЕНЮ -->
+<div class="menu">
+  <a href="index.html" class="active">Главная</a>
+  <a href="geroi.html">Герои</a>
+</div>
+
+<!-- КОНТЕНТ -->
+<div class="container">
+
+  <div class="banner">
+    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1000" alt="Mobile Legends">
+  </div>
+
+  <div class="blok">
+    <h2>Что такое Mobile Legends?</h2>
+    <p>
+      Mobile Legends: Bang Bang — это игра, где две команды по 5 человек сражаются друг с другом.
+      Каждый игрок выбирает героя и воюет на карте. Нужно сломать башни врага и уничтожить их трон.
+      Матч длится примерно 10-15 минут. Игра бесплатная, есть на телефоне.
+      Я играю в неё уже давно и мне очень нравится.
+    </p>
+    <p>
+      Игра вышла в 2016 году. Сейчас в неё играют миллионы людей по всему миру.
+      Это самая популярная мобильная MOBA игра на планете. Мой любимый герой — это Ланселот,
+      но вообще их больше 120 штук.
+    </p>
+  </div>
+
+  <div class="blok">
+    <h2>Роли героев</h2>
+    <p>Вот какие роли бывают в игре, я тут описал каждую:</p>
+    <table>
+      <tr>
+        <th>Роль</th>
+        <th>Что делает</th>
+      </tr>
+      <tr>
+        <td><b>Танк</b></td>
+        <td>Толстый, много хп, прикрывает своих, первым идёт в бой</td>
+      </tr>
+      <tr>
+        <td><b>Воин</b></td>
+        <td>И бьёт и терпит, универсальный боец</td>
+      </tr>
+      <tr>
+        <td><b>Убийца</b></td>
+        <td>Быстрый, убивает слабых врагов, прыгает туда сюда</td>
+      </tr>
+      <tr>
+        <td><b>Маг</b></td>
+        <td>Кидает заклинания, много магического урона</td>
+      </tr>
+      <tr>
+        <td><b>Стрелок</b></td>
+        <td>Стреляет с расстояния, главный по урону</td>
+      </tr>
+      <tr>
+        <td><b>Поддержка</b></td>
+        <td>Лечит союзников, даёт щиты, помогает команде</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="blok">
+    <h2>Интересные факты про игру</h2>
+    <div class="fakty">
+      <div class="fakt">
+        <span class="cifra">120+</span>
+        <span class="nazvanie">ГЕРОЕВ</span>
+      </div>
+      <div class="fakt">
+        <span class="cifra">5v5</span>
+        <span class="nazvanie">ФОРМАТ МАТЧЕЙ</span>
+      </div>
+      <div class="fakt">
+        <span class="cifra">2016</span>
+        <span class="nazvanie">ГОД ВЫХОДА</span>
+      </div>
+      <div class="fakt">
+        <span class="cifra">10-15</span>
+        <span class="nazvanie">МИНУТ МАТЧ</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="blok">
+    <h2>Почему я люблю эту игру</h2>
+    <ul>
+      <li>Потому что <b>красивые герои</b> и скины</li>
+      <li>Матчи <b>быстрые</b>, можно играть в перерыве</li>
+      <li>Можно играть <b>с друзьями</b> в одной команде</li>
+      <li>Постоянно выходят <b>новые герои</b> и ивенты</li>
+      <li>Это <b>бесплатно</b> (ну скины платные, но это не обязательно)</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ПОДВАЛ -->
+<div class="podval">
+  
+</div>
+
+</body>
+</html>
